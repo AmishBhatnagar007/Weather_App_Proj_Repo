@@ -1,0 +1,9 @@
+#jo bhi local code mein call kiya h woh woh add krna h requirements mein
+Flask
+gunicorn
+request
+#inke aage == krkeinke version bhi likh skte h toh woh specific version hi install hoga
+#gunicorn is needed for a cloud environment
+#now we need to push the code from local system to git and then from git to cloud
+#if I push it inside a git, automatically it'll build the code and deploy in cloud
+#now move to app.py

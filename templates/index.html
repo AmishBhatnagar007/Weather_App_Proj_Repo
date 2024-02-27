@@ -1,0 +1,23 @@
+<!-- enter city name and it shoud give all the weather details -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <title>Search City</title>
+    <div class="content">
+        <h1 style="text-align:center">Weather App</h1>
+        <div class="form">
+            <form action="/weatherapp" method="POST"><!-- this page is available to a route weather app matlab whatever you type in form, it will be sent to weather app. In python prog, we need to write this weather app-->
+                <label for="City">Enter City:</label>
+                <input type="text" name="city" id="city"><!-- it will take 1 input and that is city-->
+                <label for="Units">Enter Units:</label>
+                <input type="text" name="units" id="units">
+                <label for="appid">Enter Your API Key:</label>
+                <input type="text" name="appid" id="appid">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
