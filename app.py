@@ -43,3 +43,10 @@ if __name__=="__main__":
 #now open terminal and usme move to weather_app folder using cd weather_app in terminal
 #after this, type ls and jo 3 cheeze h, we need to push these 3 inside my repo
 #and now github pe jo code h woh terminal mei likhte jao
+#git init=>iniialize a git. git mein ek code rakh sakte h . ab mera oura weather_app waala folder is being treated as git init
+#git add . => just a blank space I am trying to add in git
+#till -M main waala code, we were trying to create a git type of system inside our local system
+#now we have to push my code inside the url given in github
+#copy and paste the link waala code
+    
+#now adding 
